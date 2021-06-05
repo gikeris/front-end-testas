@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 0;
+    border: 1px solid silver;
+}
+.form-row > label{
+    
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.form-row > input{
+    border: none;
+    height: 25px;
+    color: #4253D8;
+    padding-left: 15px;
+}
+.form-row:hover{
+    border-left: 3px solid #3f53e2;
+}
